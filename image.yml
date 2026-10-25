@@ -62,6 +62,7 @@ runtime:
 docs:
   categories:
   - Cloud
+  - Documents
   logo: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   setup: |
     Access the webui at `https://<your-ip>:443`, for more information check out [Nextcloud](https://nextcloud.com/).
