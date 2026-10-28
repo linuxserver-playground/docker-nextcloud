@@ -10,9 +10,14 @@ summary: |-
 upstream:
   url: https://nextcloud.com/
   version:
-    type: command
-    run: |-
-      curl -sX GET https://api.github.com/repos/nextcloud/server/releases | jq -r '.[] | select(.prerelease == true) | .tag_name' | sed 's|^v||g' | sort -rV | head -1
+    type: github_release
+    repo: nextcloud/server
+    prerelease: true
+    include: (alpha|beta|rc)
+    sort: version
+    transform:
+    - regex: ^v
+      replace: ''
   notes:
     type: github_release
     repo: nextcloud-releases/server
