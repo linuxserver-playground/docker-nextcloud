@@ -13,6 +13,8 @@ upstream:
     type: command
     run: |-
       curl -sX GET https://api.github.com/repos/nextcloud/server/releases | jq -r "first(.[] | select(.tag_name | contains($(( $(curl -sX GET https://api.github.com/repos/nextcloud/server/releases | jq -r '.[] | select(.prerelease != true) | .tag_name' | sed 's|^v||g' | awk -F '.' '{print $1}' | sort -rV | head -1) -1 ))|tostring ) and (contains( \"rc\" )|not)) | .tag_name)" | sed 's|^v||g'
+    require_assets:
+      - 'https://download.nextcloud.com/server/releases/nextcloud-${VERSION}.tar.bz2'
   notes:
     type: github_release
     repo: nextcloud-releases/server
