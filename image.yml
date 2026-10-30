@@ -16,6 +16,8 @@ upstream:
     transform:
     - regex: ^v
       replace: ''
+    require_assets:
+      - 'https://download.nextcloud.com/server/releases/nextcloud-${VERSION}.tar.bz2'
   notes:
     type: github_release
     repo: nextcloud-releases/server
