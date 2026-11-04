@@ -138,11 +138,11 @@ icewind/smb                            3.8.1             php-composer
 icewind/streams                        v0.7.8            php-composer                   
 icu-data-en                            78.1-r0           apk                            
 icu-libs                               78.1-r0           apk                            
-imagemagick                            7.1.2.34-r0       apk                            
-imagemagick-jpeg                       7.1.2.34-r0       apk                            
-imagemagick-jxl                        7.1.2.34-r0       apk                            
-imagemagick-libs                       7.1.2.34-r0       apk                            
-imagemagick-webp                       7.1.2.34-r0       apk                            
+imagemagick                            7.1.2.35-r0       apk                            
+imagemagick-jpeg                       7.1.2.35-r0       apk                            
+imagemagick-jxl                        7.1.2.35-r0       apk                            
+imagemagick-libs                       7.1.2.35-r0       apk                            
+imagemagick-webp                       7.1.2.35-r0       apk                            
 interpolate_name                       0.2.4             rust-crate                     
 is_terminal_polyfill                   1.70.1            rust-crate                     
 itertools                              0.10.5            rust-crate                     
@@ -162,7 +162,7 @@ lcobucci/clock                         3.5.0             php-composer
 ldb                                    4.23.8-r0         apk                            
 libSvtAv1Enc                           4.1.0-r0          apk                            
 libapk                                 3.0.8-r0          apk                            
-libarchive                             3.8.10-r0         apk                            
+libarchive                             3.8.11-r0         apk                            
 libass                                 0.17.4-r1         apk                            
 libasyncns                             0.8-r5            apk                            
 libattr                                2.5.2-r2          apk                            
@@ -185,7 +185,7 @@ libdvdread                             6.1.3-r2          apk
 libeconf                               0.8.3-r0          apk                            
 libedit                                20260508.3.1-r1   apk                            
 libevent                               2.1.13-r0         apk                            
-libexpat                               2.9.0-r0          apk                            
+libexpat                               2.10.0-r0         apk                            
 libffi                                 3.5.2-r1          apk                            
 libflac                                1.4.3-r2          apk                            
 libformw                               6.6_p20260516-r0  apk                            
