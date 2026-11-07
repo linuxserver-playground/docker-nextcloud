@@ -442,7 +442,7 @@ rayon                                1.10.0            rust-crate
 rayon-core                           1.12.1            rust-crate                    
 readline                             8.3.3-r1          apk                           
 recommendations                      7.0.0-dev.0       npm                           
-rsync                                3.5.0-r0          apk                           
+rsync                                3.5.2-r0          apk                           
 rubix/ml                             2.5.3             php-composer                  
 rubix/tensor                         3.0.5             php-composer                  
 rullzer/easytotp                     v0.1.4            php-composer                  
