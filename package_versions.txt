@@ -307,7 +307,7 @@ lz4-libs                             1.10.0-r1         apk
 marc-mabe/php-enum                   v4.7.1            php-composer                  
 masterminds/html5                    2.10.1            php-composer                  
 maybe-rayon                          0.1.1             rust-crate                    
-mbedtls3                             3.6.7-r0          apk                           
+mbedtls3                             3.6.8-r0          apk                           
 mcookie                              2.42.3-r1         apk                           
 memchr                               2.7.5             rust-crate                    
 mexitek/phpcolors                    v1.0.4            php-composer                  
