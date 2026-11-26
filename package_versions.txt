@@ -68,7 +68,7 @@ clap_builder                           4.5.40            rust-crate
 clap_complete                          4.5.54            rust-crate                     
 clap_lex                               0.7.5             rust-crate                     
 colorchoice                            1.0.4             rust-crate                     
-composer                               2.11.2            php-composer                   
+composer                               2.11.3            php-composer                   
 console                                0.15.11           rust-crate                     
 core2                                  0.4.0             rust-crate                     
 coreutils                              9.11-r0           apk                            
@@ -131,7 +131,7 @@ ghostscript                            10.08.0-r0        apk
 giggsey/libphonenumber-for-php-lite    9.0.36            php-composer                   
 git                                    2.54.1-r0         apk                            
 git-init-template                      2.54.1-r0         apk                            
-glib                                   2.88.1-r1         apk                            
+glib                                   2.88.4-r0         apk                            
 glslang-libs                           1.4.341.0-r0      apk                            
 glycin-image-rs                        2.1.5-r0          apk                            
 glycin-svg                             2.1.5-r0          apk                            
@@ -210,9 +210,9 @@ libdvdread                             6.1.3-r2          apk
 libeconf                               0.8.3-r0          apk                            
 libedit                                20260508.3.1-r1   apk                            
 libevent                               2.1.13-r0         apk                            
-libexpat                               2.10.0-r0         apk                            
+libexpat                               2.11.0-r0         apk                            
 libfdisk                               2.42.3-r1         apk                            
-libffi                                 3.5.2-r1          apk                            
+libffi                                 3.8.1-r0          apk                            
 libflac                                1.4.3-r2          apk                            
 libformw                               6.6_p20260516-r0  apk                            
 libgcc                                 15.2.0-r5         apk                            
@@ -288,7 +288,7 @@ libxdmcp                               1.1.5-r1          apk
 libxext                                1.3.7-r0          apk                            
 libxfixes                              6.0.2-r0          apk                            
 libxft                                 2.3.9-r0          apk                            
-libxml2                                2.13.9-r2         apk                            
+libxml2                                2.13.9-r3         apk                            
 libxpm                                 3.5.20-r0         apk                            
 libxrender                             0.9.13-r0         apk                            
 libxt                                  1.3.1-r0          apk                            
@@ -334,7 +334,7 @@ new_debug_unreachable                  1.0.6             rust-crate
 nextcloud                              1.0.0             npm                            
 nextcloud/lognormalizer                v3.0.1            php-composer                   
 nghttp2-libs                           1.70.0-r0         apk                            
-nginx                                  1.30.7-r0         apk                            
+nginx                                  1.30.8-r0         apk                            
 nom                                    7.1.3             rust-crate                     
 nom                                    8.0.0             rust-crate                     
 noop_proc_macro                        0.3.0             rust-crate                     
@@ -472,7 +472,7 @@ setarch                                2.42.3-r1         apk
 setpriv                                2.42.3-r1         apk                            
 sfdisk                                 2.42.3-r1         apk                            
 shaderc                                2026.1-r0         apk                            
-shadow                                 4.18.0-r1         apk                            
+shadow                                 4.20.4-r0         apk                            
 shared-mime-info                       2.4-r7            apk                            
 signal-hook                            0.3.18            rust-crate                     
 signal-hook-registry                   1.4.5             rust-crate                     
@@ -567,4 +567,4 @@ zerocopy                               0.8.25            rust-crate
 zimg                                   3.0.6-r0          apk                            
 zix-libs                               0.8.0-r0          apk                            
 zlib                                   1.4-r0            apk                            
-zstd-libs                              1.5.7-r2          apk                            
+zstd-libs                              1.6.0-r1          apk                            
